@@ -1,7 +1,7 @@
 import "../css/style.scss";
 import axios from "axios";
 
-document.querySelector("button").onclick = async (e) => {
+document.querySelector("button").onsubmit = async (e) => {
   e.preventDefault();
   const { value } = document.querySelector("form input[type=text]");
   if (value.length >= 2) {
@@ -21,7 +21,7 @@ document.querySelector("button").onclick = async (e) => {
   }
 };
 
-// de code in commentaar heb ik gevonden adhv cht gpt, ik heb deze niet gebruikt omdat ik niet veel leer door gewoon te kopiëren
+// de code in commentaar heb ik gevonden adhv chat gpt, ik heb deze niet gebruikt omdat ik niet veel leer door gewoon te kopiëren
 
 // let form = document.getElementById("activity-form");
 // form.addEventListener("submit", getBoredActivity);

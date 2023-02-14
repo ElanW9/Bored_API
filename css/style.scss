@@ -2,7 +2,39 @@
 
 
 $blue: rgb(41, 132, 250);
+$lightblue:#00ddff;
+$purple:#ff00d4;
+
+body{
+   background-image: linear-gradient(90deg, $purple 0% , $lightblue 100%);
+}
 button{
-   color: $blue;
+   color: white;
+   background-color: $blue;
+   border-radius: 20px;
+   font-size: 30px;
+  
+}
+button:hover{
+   background-color: $purple;
+   color: white;
 }
 
+h1{
+   font-size: 50px;
+   color: white;
+   font-family: Arial;
+   
+}
+
+h2{
+   font-size: 40px;
+   padding-bottom: 20px;
+   font-family: Arial;
+}
+
+main{
+text-align: center;
+padding-top: 25vh;
+
+}
